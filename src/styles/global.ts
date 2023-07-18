@@ -2,7 +2,7 @@ import { createGlobalStyle } from 'styled-components'
 
 export const GlobalStyle = createGlobalStyle`
   :root {
-    --background: #F0F2F5;
+    --background: #f0f2f5;
     --red: #E52E4D;
     --green: #33CC95;
     --blue: #5429CC;
@@ -12,23 +12,23 @@ export const GlobalStyle = createGlobalStyle`
     --text-title: #363F5F;
     --text-body: #969CB3;
 
-    --backgroun: #F0F2F5;
+    --background: #F0F2F5;
     --shape: #FFFFFF;
   }
 
-  *{
+  * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
-
+  
   html {
     @media (max-width: 1080px) {
-      font-size: 93.75%; //15px
+      font-size: 93.75%; 
     }
 
     @media (max-width: 720px) {
-      font-size: 87.5%; //14px
+      font-size: 87.5%;
     }
   }
 
@@ -85,7 +85,7 @@ export const GlobalStyle = createGlobalStyle`
     border: 0;
     background: transparent;
 
-    transition: 0.2s;
+    transition: filter 0.2s;
 
     &:hover {
       filter: brightness(0.8);
