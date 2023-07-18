@@ -1,7 +1,7 @@
-import styled from "styled-components";
-import { darken, transparentize } from 'polished';
+import styled from 'styled-components';
+import { darken, transparentize } from 'polished'
 
-export const Container = styled.div`
+export const Container = styled.form`
   h2 {
     color: var(--text-title);
     font-size: 1.5rem;
@@ -62,9 +62,9 @@ interface RadioBoxProps {
 }
 
 const colors = {
-  green: '#33cc95',
+  green: '#33CC95',
   red: '#E52E4D'
-}
+};
 
 export const RadioBox = styled.button<RadioBoxProps>`
   height: 4rem;
